@@ -1,0 +1,12 @@
+//= require jquery-ui
+//= require jquery_ujs
+//= require bootstrap
+//= require jquery.dataTables.min
+//= require jquery.validationEngine
+//= require jquery.validationEngine-en
+//= require admin/base
+//= require admin/form_validations
+//= require admin/dataTables.init
+//= require admin/check_seo
+//= require admin/sortMenu
+//= require jasny_fileupload

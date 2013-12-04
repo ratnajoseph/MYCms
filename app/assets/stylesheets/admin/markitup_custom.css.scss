@@ -1,0 +1,144 @@
+/* -------------------------------------------------------------------
+// markItUp! Universal MarkUp Engine, JQuery plugin
+// By Jay Salvat - http://markitup.jaysalvat.com/
+// ------------------------------------------------------------------*/
+.markItUp {
+  width: 99%;
+}
+
+.markItUp a:link,
+.markItUp a:visited {
+  color:#000;
+  text-decoration:none;
+}
+
+.markItUp .markItUpButton16 a {
+  background-image: image-url("/assets/markitup/clean.png");
+}
+
+.markItUpContainer {
+  border:1px solid #ccc;
+  background:#FFF image-url("/assets/markitup/bg-container.png") repeat-x top left;
+  font:11px Verdana, Arial, Helvetica, sans-serif;
+  padding: 0px 14px 0px 5px;
+  margin: 0 1px 0 10px;
+}
+.markItUpContainer ul{
+  overflow: auto;
+  min-width: 700px;
+}
+#draggable_editor .markItUpEditor {
+  padding: 0;
+  font: 12px "Courier New", Courier, monospace;
+  border: 1px solid #cccccc;
+  width: 918px;
+  height: 320px;
+}
+.markItUpPreviewFrame {
+  overflow:auto;
+  background-color:#FFFFFF;
+  border:1px solid #3C769D;
+  width:99.9%;
+  height:300px;
+  margin:5px 0;
+}
+.markItUpFooter {
+  width:100%;
+  cursor: n-resize;
+}
+.markItUpResizeHandle {
+  overflow:hidden;
+  width:22px; height:5px;
+  margin-left:auto;
+  margin-right:auto;
+  background-image: image-url("/assets/markitup/handle.png");
+  cursor:n-resize;
+  padding: 2px 0;
+}
+
+#markItUpMultiSet .markItUpSeparator {
+height: 25px;
+}
+
+#markItUpMultiSet .markItUpButton {
+  height: 20px;
+  line-height: 20px;
+  padding: 5px 0 0 5px;
+  text-align: center;
+}
+
+.markItUp .file_manager a {
+    background-image: url("/assets/markitup/folder-icon.png");
+}
+
+.content_preview {
+  border: 1px dashed blue;
+}
+
+.left_div a, .right_div a, .clear_div a {
+  background-image: url("/assets/glyphicons-halflings.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 14px;
+  line-height: 14px;
+  margin-top: 1px;
+  vertical-align: text-top;
+  width: 14px;
+}
+
+.left_div a {
+  background-position: -240px -96px;
+
+}
+
+.right_div a {
+  background-position: -264px -96px;
+}
+
+.clear_div a {
+   background-position: -456px -144px;
+}
+
+#main {
+  border-radius: 5px;
+}
+
+#handle {
+  background-color: #efefef;
+  border-bottom: 2px solid #ddd;
+  cursor: move;
+  padding: 5px 2px 5px 5px;
+}
+
+#draggable_editor {
+  z-index: 1050;
+  position: absolute;
+  border: 1px solid #cccccc;
+  box-shadow: 0 0 5px 0px #bbbbbb;
+  background-color: white;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.update_content {
+  margin-right: 9px;
+  float: right;
+}
+
+.clear-button {
+  clear: both;
+}
+
+/* File Manager */
+table.upload-table {
+  margin: 0 auto;
+}
+
+table.upload-table td  {
+  border: 1px solid #ccc;
+  padding: 3px 10px;
+}
+
+td.upload-name {
+  width: 255px;
+}
